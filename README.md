@@ -4,8 +4,16 @@ txCarbonClient
 A simple Twisted client for reporting metrics to Carbon.
 
 
+installation
+--------------
+
+```shell
+pip install git+git://github.com/fdChasm/txCarbonClient.git
+```
+
+
 use
-==============
+--------------
 
 Simply add create an instance of the CarbonClientService and add it to your
 Twisted application service hierarchy.
