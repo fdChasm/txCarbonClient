@@ -8,6 +8,12 @@ installation
 --------------
 
 ```shell
+pip install txCarbonClient
+```
+
+Or get the latest development version.
+
+```shell
 pip install git+git://github.com/fdChasm/txCarbonClient.git
 ```
 
