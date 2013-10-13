@@ -3,7 +3,7 @@ import math
 from twisted.application import service
 from twisted.internet import reactor
 
-from txCarbonClient.carbon_client_service import CarbonClientService
+from txCarbonClient import CarbonClientService
 
 
 carbon_client_service = CarbonClientService(reactor, 'localhost', 2004)
